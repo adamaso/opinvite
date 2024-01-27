@@ -1,0 +1,27 @@
+* {
+    font-family: 'Neue Machina';
+}
+
+// CUSTOM PROPERTIES
+
+:root {
+    --font-family: 'Neue Machina';
+    --font-family-bold: 'Neue Machina Bold';
+}
+
+.light {
+    --text-color: #000;
+    --text-color-reverse: #fff;
+}
+
+// FONTS
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: local('Neue Machina-Regular'), url(../assets/fonts/NeueMachina-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Neue Machina Bold';
+    src: local('Neue Machina-Ultrabold'), url(../assets/fonts/NeueMachina-Ultrabold.woff) format('woff');
+}

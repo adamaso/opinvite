@@ -1,0 +1,16 @@
+@import '../../styles/global.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-top: 16px;
+
+    &__logo {
+        font-family: 'Neue Machina Bold';
+        font-size: 48px;
+        color: var(--text-color);
+    }
+    
+}

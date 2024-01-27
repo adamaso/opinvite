@@ -1,0 +1,12 @@
+@import './styles/global.scss';
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Neue Machina Bold';
+    font-size: 60px;
+    color: var(--text-color);
+}
