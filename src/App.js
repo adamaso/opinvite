@@ -14,7 +14,7 @@ function App() {
       <Section className="rotating" type="diagonal">
         <h2 className="rotating-text">plans for<br /><ReactRotatingText className="rotating-text--bold" items={roatingItems} /></h2>
         <br />
-        <a className='squiggle'>learn more</a>
+        <a href="" className='squiggle'>learn more</a>
       </Section>
     </div>
   );

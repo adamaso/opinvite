@@ -1,6 +1,5 @@
 import React from "react";
 import './Hero.scss';
-import friendsPic from '../../assets/images/friends.png';
 import friendsPic2 from '../../assets/images/friends2.png';
 import Button from "../common/Button/Button";
 
