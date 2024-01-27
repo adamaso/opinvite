@@ -7,6 +7,23 @@
     padding: 8px;
     margin-top: 16px;
 
+    &__nav {
+        list-style: none;
+        font-family: var(--font-family);
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin-right: 16px;
+            }
+        }
+    }
+
     &__logo {
         font-family: 'Neue Machina Bold';
         font-size: 48px;

@@ -6,7 +6,51 @@
 }
 
 .logo {
-    font-family: 'Neue Machina Bold';
+    font-family: var(--font-family-bold);
     font-size: 60px;
     color: var(--text-color);
+}
+
+.rotating {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .squiggle {
+        font-family: var(--font-family-light);
+        color: white !important;
+        text-decoration: underline;
+    }
+}
+
+.rotating-text {
+    font-size: 24px;
+    font-family: 'Neue Machina Light';
+    color: white !important;
+
+    &--bold {
+        font-size: 36px;
+        color: white !important;
+        font-family: 'Neue Machina Bold';
+    }
+}
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }

@@ -25,6 +25,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="https://unpkg.com/css-paint-polyfill"></script>
+    <script>
+      if ("paintWorklet" in CSS) {
+       CSS.paintWorklet.addModule(
+         "https://www.unpkg.com/css-houdini-squircle@0.3.0/squircle.min.js"
+       );
+     }
+     </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

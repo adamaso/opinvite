@@ -1,0 +1,19 @@
+section {
+    padding: 2rem 20%;
+}
+
+.section {
+    &__diagonal {
+        background: black;
+        color: white;
+        padding: 10rem 20%;
+        clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        @media screen and (max-width: 768px) {
+            height: 150px;
+         }
+    }
+}
